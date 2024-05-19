@@ -1,0 +1,66 @@
+html {
+  background: #84ddf8;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 6px solid #0dde0d;
+  color: #fff;
+  padding: 2em;
+  margin: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 35%;
+  float: right;
+  padding-left: 0.5em;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 0 0.8em;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+li a {
+  color: #0dde0d;
+  font-size: 1.25rem;
+  margin: 0 0.35rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header li + li > a {
+  border-left: 3px solid #808080;
+  padding-left: 0.35em;
+}
+
+footer li + li > a {
+  border-left: 3px solid #808080;
+  padding-left: 0.35em;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  padding: 0 1em;
+}
